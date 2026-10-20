@@ -260,6 +260,9 @@ footer.site ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 footer.site a{text-decoration:none}
 footer.site a:hover{color:var(--gold)}
 footer.site .legal{grid-column:1/-1;border-top:2px solid #2C5677;padding-top:18px;font-size:.85rem;color:#9FB2C0}
+footer.site .legal{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 24px}
+footer.site .legal a{color:#C9D4DC;text-decoration:underline;text-underline-offset:3px}
+footer.site .legal a:hover{color:var(--gold)}
 footer .brand{color:var(--sand)}
 @media (max-width:760px){footer.site .wrap{grid-template-columns:minmax(0,1fr)}}
 
