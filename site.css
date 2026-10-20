@@ -263,6 +263,10 @@ footer.site .legal{grid-column:1/-1;border-top:2px solid #2C5677;padding-top:18p
 footer.site .legal{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 24px}
 footer.site .legal a{color:#C9D4DC;text-decoration:underline;text-underline-offset:3px}
 footer.site .legal a:hover{color:var(--gold)}
+footer.site .legal .pb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#89A6A6;margin-right:4px}
+footer.site .legal a.aa777{font-family:'Archivo Black',system-ui,sans-serif;font-size:.95rem;letter-spacing:-.015em;color:#E7EEEC;text-decoration:none;white-space:nowrap;transition:color .15s}
+footer.site .legal a.aa777 .aa-num{color:#FFC93C}
+footer.site .legal a.aa777:hover,footer.site .legal a.aa777:focus-visible{color:#22C3B0}
 footer .brand{color:var(--sand)}
 @media (max-width:760px){footer.site .wrap{grid-template-columns:minmax(0,1fr)}}
 
